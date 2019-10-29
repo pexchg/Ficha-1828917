@@ -10,11 +10,17 @@ public class Senasalud {
      */
     public static void main(String[] args) {
      
-        String Nombre;
-        Scanner nb = new Scanner(System.in);
-        System.out.println("Ingrese su nombre: ");
-        Nombre = nb.next();
-        System.out.println("Su nombre es: "+Nombre);
+        String Apellido;
+        Scanner ae = new Scanner(System.in); 
+        System.out.println("Ingrese su apellido: ");
+        Apellido = ae.next();
+        System.out.println("Su apellido es: "+Apellido);
+        
+        int Edad;
+        Scanner e = new Scanner(System.in);
+        System.out.println("Ingrese su edad: ");
+        Edad = e.nextShort();
+        System.out.println("Su edad es: "+Edad);
     }
         
     }
